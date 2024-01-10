@@ -30,7 +30,7 @@ body {
 } */
 
 img {
-  height: 96vh;
+  height: 98vh;
   width: auto;
   box-shadow: rgb(105, 105, 105) 10px 10px 8px 0px inset,
     rgb(94, 94, 94) -3.2px -3.2px 8px 0px inset;
@@ -66,20 +66,19 @@ img {
 
 .btn-book {
   color: var(--primary-textColor);
-  text-decoration: underline;
   font-size: small;
   cursor: pointer;
   transition: 0.5s all ease-in-out;
   padding-left: 5px;
   padding-right: 5px;
+  word-spacing: 2px;
 }
 
 .btn-book:hover {
-  background: rgba(0, 0, 0, 0.4);
+  text-decoration-skip-ink: auto;
   color: var(--primary-textColor);
   border-radius: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
+  letter-spacing: 2px;
 }
 
 .right {
@@ -93,6 +92,7 @@ img {
 .text {
   font-size: 3rem;
   width: 20%;
+  font-weight: bolder;
   direction: rtl;
 }
 
@@ -152,6 +152,6 @@ img {
   border-radius: 50%;
   position: absolute;
   background: var(--base-color);
-  left: 60%;
-  bottom: 30%;
+  left: 55%;
+  bottom: 25%;
 }
